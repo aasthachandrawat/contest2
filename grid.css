@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    border:3px solid green;
+    padding: 10px 15px 10px 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+    position: relative;
+     background: #FFFFFF;
+     padding: 10px;
+}
+
+#one{
+    grid-row: 2/4;
+    grid-column: 1/2;
+    background-color:pink;
+    margin: 5px; 
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.3ge96wTGpPxyiLYZ5ztf8AHaFL&pid=Api&P=0);
+
+}
+
+#two{
+    grid-row: 2/3;
+    grid-column: 2/3;
+   
+    margin: 5px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.nfUR4TzvL1-yj10aqo6pDAHaDV&pid=Api&P=0);
+}
+#three{
+    grid-row: 2/3;
+    grid-column: 3/4;
+  
+    margin: 5px;
+    background-size: cover;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.2inhwwghSOinKrFpJM0-fAHaEK&pid=Api&P=0);
+}
+#four{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    background-size: cover;
+    margin: 5px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.ziKbiSJHnosYUL6F9v265QHaDF&pid=Api&P=0);
+}
+#fiv{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    background-color:pink;
+    margin: 5px;
+    background-image: url(https://i.redd.it/8dzftvxwdo821.jpg);
+    background-size: cover;
+}
+#six{
+ grid-row: 4/5;
+ grid-column: 1/2;
+ background-color: bisque;
+ margin: 5px;
+background-image: url(https://tse2.mm.bing.net/th?id=OIP._U_h5iBdbHj34PwUi0YYRwHaFj&pid=Api&P=0);
+background-size: cover;
+}
+#seven{
+    grid-row: 4/5;
+    grid-column: 2/4;
+    background-color: bisque;
+    margin: 5px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.kzexfAfca3Vcb6EkbVXFuwHaDt&pid=Api&P=0);
+    background-size: cover
+   }
+
+#zero{
+    grid-row: 1/2;
+    grid-column: 1/2;
+font-style: bold;
+font-size: 60px;
+align-items: left;
+font-weight: bolder;
+
+   }
+   p{
+    font-size: 25px;
+    font-weight:bolder;
+     text-align: right;
+     margin-top: 100px;
+     color: red;
+   }
